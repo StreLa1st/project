@@ -1,0 +1,37 @@
+ 	.menu{
+ 		display: flex;
+ 		max-width: 1265px;
+ 		margin: 55px auto 0px auto;
+ 	}
+ 	.menuButtons{
+ 		width: 284px;
+ 		height: 74px;
+ 		cursor: pointer;
+ 		font-size: 30px;
+ 		color: white;
+ 		text-align: center;
+ 		line-height: 70px;
+ 	}
+ 	.activeMenuButton{
+ 		background-image: url("../images/activeMenuBTN.png");
+ 	}
+ 	.notActiveMenuButton{
+ 		background-image: url("../images/notActiveMenuBTN.png");
+ 	}
+ 	.menuLinks{
+ 		text-decoration: none;
+ 		color: white;
+ 		margin-left: 43px;
+ 	}
+ 	.menuLinks:first-child{
+ 		margin-left: 0px;
+ 	}
+ 	.profileImage{
+ 		background-image: url("../images/Profile.png");
+ 		width: 88px;
+ 		height: 88px;
+ 		position: absolute;
+ 		top: 48px;
+ 		left: 1645px;
+ 		cursor: pointer;
+ 	}
